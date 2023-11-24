@@ -1,5 +1,8 @@
+body {
+  font-family: "Inter";
+}
 .active {
-  background-color: brown;
+  background-color: #ff1f3d;
   color: white;
   cursor: pointer;
 }

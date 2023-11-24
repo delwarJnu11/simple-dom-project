@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.4.4/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#0b1940] min-h-screen">
+    <div class="max-w-5xl text-white mx-auto pt-32">
+      <div class="collapse collapse-plus bg-[#1d3a52] mb-2">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">
+          Discuss the scope of var, let, and const!
+        </div>
+        <div class="collapse-content">
+          <p class="text-[#e5e5e5] text-base mb-4">
+            <span class="text-cyan-500 font-bold text-xl uppercase"
+              ><u>var: </u></span
+            >
+            Var is a keyword we use it to declare a variable. var is works with
+            global and local both. when we declare a varibale with var keyword
+            inside a function block. we can get value the of this variable
+            outside the function. as well as, when we declare a variable with
+            var keyword in global scope the we acess the variable anywhere from
+            the js file.
+            <strong class="text-cyan-500 uppercase">Var</strong> can be updated
+            and re-declared and It can be declared without initialization.
+          </p>
+          <p class="text-[#e5e5e5] text-base mb-4">
+            <span class="text-cyan-500 font-bold text-xl uppercase"
+              ><u>let: </u></span
+            >
+            Let is a keyword we use it to declare a variable. let is a block
+            scope. when we declare a varibale with let keyword inside a block.
+            we can not get value the of this variable outside the function.
+            <strong class="text-cyan-500 uppercase">Let</strong> can be updated
+            but re-declared is not possible. Let can declare without initialize
+            value.
+          </p>
+          <p class="text-[#e5e5e5] text-base mb-4">
+            <span class="text-cyan-500 font-bold text-xl uppercase"
+              ><u>const: </u></span
+            >
+            const is a keyword we use it to declare a variable. const is a block
+            scope. when we declare a varibale with const keyword inside a block.
+            we can not get value the of this variable outside the function.
+            <strong class="text-cyan-500 uppercase">const</strong> can not be
+            updated or re-declared. const can not be declared without initialize
+            value.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-[#1d3a52] mb-2">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">
+          Tell us the use cases of null and undefined!
+        </div>
+        <div class="collapse-content">
+          <p class="text-[#e5e5e5] text-base mb-4">
+            <span class="text-cyan-500 font-bold text-xl uppercase"
+              ><u>null: </u></span
+            >
+            Null is a special value that represents an empty or unknown value.
+            Null is behave like a object.
+          </p>
+          <p class="text-[#e5e5e5] text-base mb-4">
+            <span class="text-cyan-500 font-bold text-xl uppercase"
+              ><u>undefined: </u></span
+            >
+            > Undefined is a datatype in javascript. when we declare a variable
+            without initialize any value javascript set the value of that
+            variable is undefined. when we try access any data but that
+            particular data is not present the we get an error undefined value
+            we are trying to access.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-[#1d3a52] mb-2">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">
+          What do you mean by REST API?
+        </div>
+        <div class="collapse-content">
+          <p class="text-[#e5e5e5] text-base mb-4">
+            <span class="text-cyan-500 font-bold text-xl uppercase"
+              ><u>RestApi: </u></span
+            >
+            A REST API (also known as RESTful API) is an application programming
+            interface (API or web API) that conforms to the constraints of REST
+            architectural style and allows for interaction with RESTful web
+            services. REST stands for representational state transfer and was
+            created by computer scientist Roy Fielding.
+          </p>
+        </div>
+      </div>
+      <div class="flex mt-4 justify-center">
+        <a class="bg-[#1d3a52] px-3 rounded-md py-2 text-center" href="/">
+          Back to home
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
