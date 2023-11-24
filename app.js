@@ -85,7 +85,7 @@ const displayDataByCategory = (status, categoriesData) => {
           <div class="card-body p-4">
           <div class="flex space-x-4">
             <div class="avatar">
-                <div class="w-12 h-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <div class="w-12 h-12 rounded-full">
                     <img src=${info?.authors[0].profile_picture} />
                 </div>
             </div>
