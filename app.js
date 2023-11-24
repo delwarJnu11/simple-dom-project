@@ -14,7 +14,6 @@ const tabContainer = document.getElementById("tab-menus");
 const displayCategories = (categories) => {
   categories?.forEach((category, index) => {
     const menuItem = document.createElement("div");
-    menuItem.classList.add("m-4");
     menuItem.innerHTML = `
       <button class="btn px-4 py-2 ${
         index === 0 ? "active" : ""
