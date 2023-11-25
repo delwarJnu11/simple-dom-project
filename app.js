@@ -97,8 +97,9 @@ const displayDataByCategory = (status, categoriesData) => {
                   info?.authors[0].profile_name
                 }</h3>
                 ${
-                  info.authors[0].verified &&
-                  `<img src="./images/tik-mark.png" alt="" srcset="" />`
+                  info?.authors[0]?.verified === true
+                    ? `<img src="./images/tik-mark.png" alt="" />`
+                    : ""
                 }
               </div>
               <p class="font-normal text-sm text-[#171717]">${
